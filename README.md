@@ -6,8 +6,11 @@ It is adapted for data that were already demultiplexed, assembled and cleaned.
 ## What do you need
 
 [1] `qiime2-2018.2`
+
 [2] `biom-format` (Python package)
+
 [3] `Tax4fun`
+
 [4] `R`
 
 ## How to use this pipeline
@@ -50,10 +53,15 @@ It will launch the taxonomic classification of your data in a background task be
 Once you the taxonomic classification is done, you can launch the `R-tax4fun-pipeline.sh` to do the statistical analysis with `R` followed by a functional analysis using `Tax4fun`.
 
 ### References
+
 [1] <https://qiime2.org/>
+
 [2] <http://biom-format.org/>
+
 [3] Aßhauer, K. P., Wemheuer, B., Daniel, R., & Meinicke, P. (2015). Tax4Fun: predicting functional profiles from metagenomic 16S rRNA data. Bioinformatics, 31(17), 2882–2884. <http://doi.org/10.1093/bioinformatics/btv287>
+
 <http://tax4fun.gobics.de/>
+
 [4]  R Development Core Team (2008). R: A language and environment for
   statistical computing. R Foundation for Statistical Computing,
   Vienna, Austria. ISBN 3-900051-07-0, URL <http://www.R-project.org.>
