@@ -52,6 +52,13 @@ It will launch the taxonomic classification of your data in a background task be
 
 Once you the taxonomic classification is done, you can launch the `R-tax4fun-pipeline.sh` to do the statistical analysis with `R` followed by a functional analysis using `Tax4fun`.
 
+### Tips
+
+To create the metadata file use the Keemei plugin for google sheets. It has an option to verify if the file is optimized for QIIME2.
+
+<https://keemei.qiime2.org/>
+
+
 ### References
 
 [1] <https://qiime2.org/>
